@@ -1,11 +1,12 @@
 {
   "name": "teenyicons-font",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "teenyicons font that you can use on your websites.",
   "main": "index.js",
   "scripts": {
     "move:icons": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./moveIcon.ps1",
-    "generate:font": "fantasticon icons -o dist"
+    "generate:font": "fantasticon icons -o dist",
+    "gen:test": "fantasticon -n teeny"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "homepage": "https://github.com/BroJenuel-Projects/teenyicons-font#readme",
   "dependencies": {
     "teenyicons": "^0.4.1"
-  }
+  },
+  "files": [
+    "dist/"
+  ]
 }
