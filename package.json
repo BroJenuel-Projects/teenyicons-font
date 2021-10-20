@@ -1,0 +1,26 @@
+{
+  "name": "teenyicons-font",
+  "version": "1.0.0",
+  "description": "teenyicons font that you can use on your websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "move:icons": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./moveIcon.ps1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BroJenuel-Projects/teenyicons-font.git"
+  },
+  "keywords": [
+    "teenyicons"
+  ],
+  "author": "BroJenuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BroJenuel-Projects/teenyicons-font/issues"
+  },
+  "homepage": "https://github.com/BroJenuel-Projects/teenyicons-font#readme",
+  "dependencies": {
+    "teenyicons": "^0.4.1"
+  }
+}
