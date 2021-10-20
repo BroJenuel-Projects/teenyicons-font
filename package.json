@@ -4,8 +4,8 @@
   "description": "teenyicons font that you can use on your websites.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "move:icons": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./moveIcon.ps1"
+    "move:icons": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command ./moveIcon.ps1",
+    "generate:font": "fantasticon icons -o dist"
   },
   "repository": {
     "type": "git",
